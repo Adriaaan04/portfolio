@@ -1,0 +1,73 @@
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-header {
+  margin-top: 50px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 2rem;
+  color: #555; 
+  transition: color 0.3s ease;
+}
+
+body.dark-mode p {
+  color: #fff; 
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.typing {
+  font-weight: bold;
+  display: inline;
+  font-size: 2rem; 
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+body:not(.dark-mode) .typing {
+  color: #555; 
+}
+
+body.dark-mode .typing {
+  color: #fff; 
+}
+
+label {
+  font-family: 'Courier', monospace; 
+  font-size: 1.3rem;
+  color: #333; 
+  margin-top: 20px; 
+  transition: color 0.3s ease; 
+}
+
+body.dark-mode label {
+  color: #fff; 
+}
